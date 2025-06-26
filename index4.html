@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>  
+    <form action="./index5.html" method="get" autocomplete="off">
+    <center>
+        <h1> Telangana Student Bus Pass Application</h1>
+    </center> 
+    <fieldset>
+        <legend>Student Details</legend> 
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" required placeholder="enter a to z"pattern="[a-z,A-Z]+"> 
+                </td>
+                <td>
+                    <label for="name">Father/Guardian's name :</label>
+                    <input type="text" id="Father/Guardian's name" required name="Father/Guardian's name"
+                </td>
+            </tr> 
+            <br>
+            <tr>
+                <td>
+                    <lable for="Date of Birth">Date of Birth :</lable>
+                    <input type="date" name="date">
+                </td>
+                <td> 
+                    <lable for="Gender">Gender</lable>
+                    <input type="radio" id="male" name="Gender" value="male">
+                    <lable for="male">Male</lable> 
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <lable for="Female">Female</lable>
+                </td>
+            </tr> 
+            <br>
+            <tr>
+                <td>
+                    <lable for="Aadhar no">Aadhar no :</lable>
+                    <input type="text" id="Aadhar no " required name="Aadhar no"> 
+                </td>
+                <td>
+                    <lable for="Email">Email :</lable>
+                    <input type="email" id="email" required name="email">
+                </td>
+            </tr> 
+            <br>
+            <tr>
+                <td>
+                    <lable for="phone no">Phone No :</lable>
+                    <input type="number" id="phone no" name="phone no">
+                </td>
+                <td>
+                    <lable for="Photo">Photo :</lable>
+                    <input type="file" id="Photo" required name="Photo">
+                </td>
+            </tr>
+        </table> 
+    </fieldset>  
+    <fieldset>
+        <tr>
+            <td>
+                <legend>Address Details</legend>
+        <lable for="Address">Address :</lable>
+        <textarea name="" id=""></textarea>
+            </td>
+            <td> 
+                <lable for="District">District :</lable>
+                <select name="" id="">
+                    <option value="hyderabad">hyderabad</option>
+                </select>
+
+            </td>
+        </tr> 
+        <br>
+        <tr>
+            <td>
+                <lable for="Mandal">Mandal</lable>
+                <select name="" id="">
+                    <option value="hyderadad">hyderabad</option>
+                </select>
+            </td>
+            <td>
+                <lable for="village">village</lable>
+                <select name="" id="">
+                     <option value="hydreabad">hydrebad </option>
+                     <option value="miyapur">Miyapur </option>
+                     <option value="chandanagar">chandanagar</option>
+                </select>
+            </td>
+        </tr> 
+        <br>
+        <tr>
+            <td>
+                <lable for="pincode">Pincode :</lable>
+                <input type="text" id="pincode" name="pincode">
+            </td> 
+        </tr>
+    </fieldset> 
+    <fieldset>
+        <legend>Pass Type Details</legend>
+        <tr>
+            <td>
+                <lable for="city">City :</lable>
+                <select name="" id="">
+                    <option value="hyderabad">Hyderabad</option>
+                </select>
+            </td>
+        </tr>  
+        <br>
+        <tr>
+            <td>
+                <lable for="pass type">Pass type :</lable>
+                <select name="" id=""> 
+                    <option value="select">-----select-----</option>
+                    <option value="general commuter passes">general commuter passes</option>
+                    <option value="student passes">student passes</option>
+                    <option value="special passes">special passes</option>
+                </select>
+            </td>
+        </tr> 
+    </fieldset> 
+    <fieldset>
+        <legend>Mode of Payment & pass Collection</legend>  
+        <tr> 
+            <td>
+        <lable for="payment mode">Payment Mode</lable>
+        <select name="" id="">
+            <option value="select">-----select-----</option>
+            <option value="cash">cash</option>
+            <option value="debit card">debit card</option>
+            <option value="credit card">credit card</option>
+            <option value="net banking">net banking</option>
+            <option value="UPI">UPI</option>
+        </select>
+            </td>
+        </tr>        
+        </select> 
+        <br> 
+        <tr>
+            <td>
+        <lable for="pass delivery mode">Pass Delivery Mode</lable>
+        <select name="" id="">
+            <option value="select">-----select----</option>
+            <option value="online delivery">online delivery</option>
+            <option value="physical delivery">physical delivery</option>
+        </select> 
+        </td>
+    </tr>  
+    <br> 
+    <lable for="center at which you want to collect pass">center at which you want to collect pass</lable> 
+    <select name="" id="">
+    <option value="------select-----">-----select------</option>  
+    <option value="miyapur">miyapur</option>
+    <option value="chandanagar">chandanagr</option>
+    <option value="kphb">kphb</option>
+    </select>
+    </fieldset>  
+    <fieldset>
+    <center>
+        <b>QHbFr</b>
+        <center>
+            <lable for="capcha">Capcha</lable>
+            <input type="text" name:"capcha" required placeholder="enter capcha" maxlength="8" min="6">
+        </center> 
+        <input type="submit" value="submit">
+    </center> 
+</fieldset> 
+</form>
+
+
+    
+</body>
+</html>
